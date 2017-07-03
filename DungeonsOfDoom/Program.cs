@@ -10,6 +10,7 @@ namespace DungeonsOfDoom
     {
         static void Main(string[] args)
         {
+            // Här startar vi spelet
             Game game = new Game();
             game.Play();
         }
