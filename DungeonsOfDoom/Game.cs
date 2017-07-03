@@ -23,14 +23,44 @@ namespace DungeonsOfDoom
                 DisplayStats();
                 DisplayWorld();
                 AskForMovement();
-            } while (player.Health > 0);
+                CollisionDetection();
+            } while (player.HealthPool > 0);
 
             GameOver();
         }
 
+        private void CollisionDetection()
+        {
+            Room currentRoom = world[player.X, player.Y];
+            if (currentRoom.Monster != null)
+            {
+                Combat();
+            }
+            else if (currentRoom.Item != null)
+            {
+                GetItem(currentRoom);
+            }
+        }
+
+        private void GetItem(Room roomWithItem)
+        {
+            player.Backpack.Add(roomWithItem.Item);
+
+            world[player.X, player.Y] = new Room();
+
+            Console.WriteLine($"\nYou found a {roomWithItem.Item.Name}! {roomWithItem.Item.Name} was added to backpack.");
+            Console.ReadKey(true);
+        }
+
+        private void Combat() //todo Add Combat Logic
+        {
+            Console.WriteLine($"A wild Monster appeared! FIGHT!");
+            Console.ReadKey(true);
+        }
+
         void DisplayStats()
         {
-            Console.WriteLine($"Health: {player.Health}");
+            Console.WriteLine($"Health: {player.HealthPool}");
         }
 
         private void AskForMovement()
@@ -56,7 +86,7 @@ namespace DungeonsOfDoom
                 player.X = newX;
                 player.Y = newY;
 
-                player.Health--;
+                //player.HealthPool--; //todo Bestämma om man vill ha fatigue. Tog bort den for now.
             }
         }
 
@@ -68,13 +98,13 @@ namespace DungeonsOfDoom
                 {
                     Room room = world[x, y];
                     if (player.X == x && player.Y == y)
-                        Console.Write("P");
+                        Console.Write(player.DisplayChar);
                     else if (room.Monster != null)
-                        Console.Write("M");
+                        Console.Write(room.Monster.DisplayChar);
                     else if (room.Item != null)
-                        Console.Write("I");
+                        Console.Write(room.Item.DisplayChar);
                     else
-                        Console.Write(".");
+                        Console.Write(room.DisplayChar);
                 }
                 Console.WriteLine();
             }
@@ -100,10 +130,24 @@ namespace DungeonsOfDoom
                     if (player.X != x || player.Y != y)
                     {
                         if (random.Next(0, 100) < 10)
-                            world[x, y].Monster = new Monster(30);
+                            world[x, y].Monster = new Monster(30, 10);
 
                         if (random.Next(0, 100) < 10)
-                            world[x, y].Item = new Item("Sword");
+                        {
+
+                            if (random.Next(0, 100) < 50)
+                            {
+
+                                world[x, y].Item = new Weapon("Sword", 10);
+                            }
+                            else
+                            {
+                                world[x, y].Item = new Potion("Healing Potion", 30);
+                            }
+
+                        }
+
+
                     }
                 }
             }
@@ -111,7 +155,7 @@ namespace DungeonsOfDoom
 
         private void CreatePlayer()
         {
-            player = new Player(30, 0, 0);
+            player = new Player(0, 0);
         }
     }
 }
