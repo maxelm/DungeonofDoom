@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace DungeonsOfDoom
 {
-    class Room
+    class Ogre : Monster
     {
-        public Monster Monster { get; set; }
-        public Item Item { get; set; }
+        public Ogre() : base(30, 10, 5, 5)
+        {
+
+        }
     }
 }

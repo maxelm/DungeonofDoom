@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace DungeonsOfDoom
 {
-    class Player
+    class Player : Character
     {
-        public Player(int health, int x, int y)
+        public int X { get; set; }
+        public int Y { get; set; }
+
+        public Player(int x, int y) : base(100, 10, 10, 20, 'P')
         {
-            Health = health;
             X = x;
             Y = y;
         }
 
-        public int Health { get; set; }
-        public int X { get; set; }
-        public int Y { get; set; }
     }
 }
