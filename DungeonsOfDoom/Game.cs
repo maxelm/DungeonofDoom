@@ -130,12 +130,12 @@ namespace DungeonsOfDoom
                     if (player.X != x || player.Y != y)
                     {
                         if (random.Next(0, 100) < 10)
-                            world[x, y].Monster = new Monster(30, 10);
+                            world[x, y].Monster = new Goblin(); //todo add random monster spawn. Spawnar bara goblins atm.
 
                         if (random.Next(0, 100) < 10)
                         {
 
-                            if (random.Next(0, 100) < 50)
+                            if (random.Next(0, 100) < 20) // Justerade drop chansen för items, 20% svärd - 80% potion
                             {
 
                                 world[x, y].Item = new Weapon("Sword", 10);

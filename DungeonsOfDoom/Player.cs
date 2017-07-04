@@ -11,7 +11,7 @@ namespace DungeonsOfDoom
         public int X { get; set; }
         public int Y { get; set; }
 
-        public Player(int x, int y) : base(100, 10, 'P')
+        public Player(int x, int y) : base(100, 10, 10, 20, 'P')
         {
             X = x;
             Y = y;
