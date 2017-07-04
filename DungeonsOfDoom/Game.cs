@@ -34,7 +34,7 @@ namespace DungeonsOfDoom
             Room currentRoom = world[player.X, player.Y];
             if (currentRoom.Monster != null)
             {
-                Combat();
+                Combat(currentRoom);
             }
             else if (currentRoom.Item != null)
             {
@@ -52,9 +52,9 @@ namespace DungeonsOfDoom
             Console.ReadKey(true);
         }
 
-        private void Combat() //todo Add Combat Logic
+        private void Combat(Room roomWithMonster) //todo Add Combat Logic
         {
-            Console.WriteLine($"A wild Monster appeared! FIGHT!");
+            Console.WriteLine($"A wild monster appeared! FIGHT!"); //todo add name of class to message
             Console.ReadKey(true);
         }
 
