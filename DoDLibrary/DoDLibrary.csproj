@@ -49,7 +49,7 @@
     <Compile Include="GameObjects\GameObject.cs" />
     <Compile Include="GameObjects\Items\Consumable\Consumable.cs" />
     <Compile Include="GameObjects\Items\Consumable\HealthPotion.cs" />
-    <Compile Include="GameObjects\Items\Consumable\Strength Potion.cs" />
+    <Compile Include="GameObjects\Items\Consumable\StrengthPotion.cs" />
     <Compile Include="GameObjects\Items\Item.cs" />
     <Compile Include="GameObjects\Items\Weapon\Weapon.cs" />
     <Compile Include="GameObjects\Rooms\Room.cs" />

@@ -8,6 +8,7 @@ using UtilsLibrary;
 
 namespace DoDLibrary.GameObjects.Items.Consumables
 {
+
     public class StrengthPotion : Consumable
     {
         public StrengthPotion() : base("Strength Potion", 0, RandomUtils.RandomNumber(1,3), 0, 0)
