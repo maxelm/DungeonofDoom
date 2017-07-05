@@ -22,9 +22,16 @@ C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.pdb
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.csprojResolveAssemblyReference.cache
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.exe
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.pdb
+<<<<<<< HEAD
 C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe.config
 C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe
 C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.pdb
 C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.exe
 C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.pdb
+=======
+C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\UtilsLibrary.dll
+C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\UtilsLibrary.pdb
+C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DoDLibrary.dll
+C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DoDLibrary.pdb
+>>>>>>> AddClassLibrary
