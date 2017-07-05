@@ -14,5 +14,11 @@ namespace DungeonsOfDoom
         {
             DisplayChar = displayChar;
         }
+
+        public string DisplayName()
+        {
+            return this.GetType().Name;
+        }
+
     }
 }

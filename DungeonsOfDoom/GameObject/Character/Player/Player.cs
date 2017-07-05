@@ -8,6 +8,19 @@ namespace DungeonsOfDoom
 {
     class Player : Character
     {
+        private const int MaxHp = 50;
+        private int healthPool;
+        public override int Health
+        {
+            get
+            { return healthPool; }
+            set
+            {
+                healthPool = value;
+                if (healthPool > MaxHp)
+                    healthPool = MaxHp;
+            }
+        }
         public int X { get; set; }
         public int Y { get; set; }
 
@@ -15,6 +28,7 @@ namespace DungeonsOfDoom
         {
             X = x;
             Y = y;
+            healthPool = MaxHp;
         }
 
     }

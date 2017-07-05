@@ -12,7 +12,7 @@ namespace DungeonsOfDoom
         {
             // Här startar vi spelet
             Game game = new Game();
-            game.Play();
+            game.StartGame();
         }
     }
 }
