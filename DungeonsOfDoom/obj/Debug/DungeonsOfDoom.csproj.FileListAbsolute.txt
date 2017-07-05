@@ -22,3 +22,9 @@ C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.pdb
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.csprojResolveAssemblyReference.cache
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.exe
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.pdb
+C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe.config
+C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe
+C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.pdb
+C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.exe
+C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.pdb
