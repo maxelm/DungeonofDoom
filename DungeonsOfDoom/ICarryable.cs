@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace DungeonsOfDoom
 {
-    class Dragon : Monster
+    interface ICarryable
     {
-        public Dragon() : base(40, 20, 10, 15)
-        {
+        string GetPickedUp(Character character);
 
-        }
-
+        string DisplayName();
     }
 }

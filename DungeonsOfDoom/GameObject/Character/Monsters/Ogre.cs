@@ -12,5 +12,12 @@ namespace DungeonsOfDoom
         {
 
         }
+
+        public override string Attack(Character opponent)
+        {
+            opponent.Health -= this.Damage;
+            string damage = $"{DisplayName(this)} raises his heavy club and smashes it down with terrible force on {DisplayName(opponent)} dealing {this.Damage} damage.";
+            return damage;
+        }
     }
 }
