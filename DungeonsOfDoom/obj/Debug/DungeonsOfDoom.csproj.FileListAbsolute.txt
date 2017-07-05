@@ -22,3 +22,5 @@ C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.pdb
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.csprojResolveAssemblyReference.cache
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.exe
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.pdb
+C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\UtilsLibrary.dll
+C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\UtilsLibrary.pdb

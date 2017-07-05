@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DungeonsOfDoom.Utils
+namespace UtilsLibrary
 {
-    static class RandomUtils
+    public static class RandomUtils
     {
         static Random random = new Random();
 

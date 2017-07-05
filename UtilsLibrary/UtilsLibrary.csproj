@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3C25B30D-B418-4DFD-9539-EA058771BBFE}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>DungeonsOfDoom</RootNamespace>
-    <AssemblyName>DungeonsOfDoom</AssemblyName>
+    <ProjectGuid>{1D601104-89DD-493D-A9C0-2968D5C65E8D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UtilsLibrary</RootNamespace>
+    <AssemblyName>UtilsLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,32 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GameObject\Items\Consumable\HealthPotion.cs" />
-    <Compile Include="GameObject\Character\Character.cs" />
-    <Compile Include="GameObject\Character\Monsters\Orc.cs" />
-    <Compile Include="GameObject\GameObject.cs" />
-    <Compile Include="GameObject\Character\Monsters\Goblin.cs" />
-    <Compile Include="GameObject\Character\Monsters\Ogre.cs" />
-    <Compile Include="GameObject\Items\Consumable\Consumable.cs" />
-    <Compile Include="GameLogic\Game.cs" />
-    <Compile Include="GameObject\Items\Consumable\Strength Potion.cs" />
-    <Compile Include="GameObject\Items\Item.cs" />
-    <Compile Include="GameObject\Character\Monsters\Monster.cs" />
-    <Compile Include="GameObject\Character\Player\Player.cs" />
-    <Compile Include="ICarryable.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GameObject\Room\Room.cs" />
-    <Compile Include="GameObject\Items\Weapon.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\UtilsLibrary\UtilsLibrary.csproj">
-      <Project>{1d601104-89dd-493d-a9c0-2968d5c65e8d}</Project>
-      <Name>UtilsLibrary</Name>
-    </ProjectReference>
+    <Compile Include="RandomUtils.cs" />
+    <Compile Include="TextUtils.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
