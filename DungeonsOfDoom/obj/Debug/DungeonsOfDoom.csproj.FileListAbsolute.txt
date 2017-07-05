@@ -24,3 +24,5 @@ C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.exe
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.pdb
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\UtilsLibrary.dll
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\UtilsLibrary.pdb
+C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DoDLibrary.dll
+C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DoDLibrary.pdb

@@ -18,5 +18,10 @@ namespace UtilsLibrary
             }
             Console.WriteLine();
         }
+
+        public static string DisplayName(object gameObject)
+        {
+            return gameObject.GetType().Name;
+        }
     }
 }
