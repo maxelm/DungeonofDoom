@@ -1,7 +1,7 @@
-C:\MaxRepository\DungeonofDoom\DoDLibrary\obj\Debug\DoDLibrary.csprojResolveAssemblyReference.cache
 C:\MaxRepository\DungeonofDoom\DoDLibrary\bin\Debug\DoDLibrary.dll
 C:\MaxRepository\DungeonofDoom\DoDLibrary\bin\Debug\DoDLibrary.pdb
 C:\MaxRepository\DungeonofDoom\DoDLibrary\bin\Debug\UtilsLibrary.dll
 C:\MaxRepository\DungeonofDoom\DoDLibrary\bin\Debug\UtilsLibrary.pdb
+C:\MaxRepository\DungeonofDoom\DoDLibrary\obj\Debug\DoDLibrary.csprojResolveAssemblyReference.cache
 C:\MaxRepository\DungeonofDoom\DoDLibrary\obj\Debug\DoDLibrary.dll
 C:\MaxRepository\DungeonofDoom\DoDLibrary\obj\Debug\DoDLibrary.pdb

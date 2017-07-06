@@ -1,37 +1,10 @@
-c:\users\pontus\documents\visual studio 2017\Projects\DungeonsOfDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe.config
-c:\users\pontus\documents\visual studio 2017\Projects\DungeonsOfDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe
-c:\users\pontus\documents\visual studio 2017\Projects\DungeonsOfDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.pdb
-c:\users\pontus\documents\visual studio 2017\Projects\DungeonsOfDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.csprojResolveAssemblyReference.cache
-c:\users\pontus\documents\visual studio 2017\Projects\DungeonsOfDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.exe
-c:\users\pontus\documents\visual studio 2017\Projects\DungeonsOfDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.pdb
-C:\Users\pontu\Desktop\DungeonsOfDoomStart\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe.config
-C:\Users\pontu\Desktop\DungeonsOfDoomStart\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe
-C:\Users\pontu\Desktop\DungeonsOfDoomStart\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.pdb
-C:\Users\pontu\Desktop\DungeonsOfDoomStart\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.csprojResolveAssemblyReference.cache
-C:\Users\pontu\Desktop\DungeonsOfDoomStart\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.exe
-C:\Users\pontu\Desktop\DungeonsOfDoomStart\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.pdb
-C:\Projects\DungeonsOfDoomStart\DungeonsOfDoomStart\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe.config
-C:\Projects\DungeonsOfDoomStart\DungeonsOfDoomStart\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe
-C:\Projects\DungeonsOfDoomStart\DungeonsOfDoomStart\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.pdb
-C:\Projects\DungeonsOfDoomStart\DungeonsOfDoomStart\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.csprojResolveAssemblyReference.cache
-C:\Projects\DungeonsOfDoomStart\DungeonsOfDoomStart\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.exe
-C:\Projects\DungeonsOfDoomStart\DungeonsOfDoomStart\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.pdb
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe.config
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.pdb
+C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DoDLibrary.dll
+C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\UtilsLibrary.dll
+C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DoDLibrary.pdb
+C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\UtilsLibrary.pdb
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.csprojResolveAssemblyReference.cache
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.exe
 C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.pdb
-<<<<<<< HEAD
-C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe.config
-C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.exe
-C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\bin\Debug\DungeonsOfDoom.pdb
-C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.exe
-C:\Users\Administrator\Documents\DungeonofDoom\DungeonsOfDoom\obj\Debug\DungeonsOfDoom.pdb
-=======
-C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\UtilsLibrary.dll
-C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\UtilsLibrary.pdb
-C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DoDLibrary.dll
-C:\MaxRepository\DungeonofDoom\DungeonsOfDoom\bin\Debug\DoDLibrary.pdb
->>>>>>> AddClassLibrary
