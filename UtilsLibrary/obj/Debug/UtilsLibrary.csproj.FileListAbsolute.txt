@@ -1,0 +1,4 @@
+C:\MaxRepository\DungeonofDoom\UtilsLibrary\bin\Debug\UtilsLibrary.dll
+C:\MaxRepository\DungeonofDoom\UtilsLibrary\bin\Debug\UtilsLibrary.pdb
+C:\MaxRepository\DungeonofDoom\UtilsLibrary\obj\Debug\UtilsLibrary.dll
+C:\MaxRepository\DungeonofDoom\UtilsLibrary\obj\Debug\UtilsLibrary.pdb
