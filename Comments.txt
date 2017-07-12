@@ -1,1 +1,27 @@
-Titta Johan! Här kan vi dela våra tankar eller todo listor!
+Ideas
+* Event for war cry before combat (virtual?)
+* LINQ queries to show categorized backpack
+	Possible use of method Count() to show number of identical items
+* Research "Reflection" in order to randomize monsters/items based on class hierarchy
+* Add spells/magic (classes or delegates?)
+* Turn based fighting
+* Different combat moves (choices)
+* Multiple levels (e.g 2 floors)
+* Boss fight
+* Extended fight logic (e.g damage calculations, attack, defense, agility, critical hit chance)
+	Possible use of static utils class
+* Monster/item count - (field variable in game vs. static variable in monster/items)
+	Ability to choose how many monsters/items
+* Weapon slot
+* Win Condition
+* Modifier
+	Double[level] Modifier; {0,75, 1,0, 1,2} ...
+	Int Level = 1; level++;
+	index the modifier with the current level for appropriate scaling.
+	Possibly based off of level
+	# of monsters, monster strength etc.
+* Stamina/energy/mana
+	Rest/gain/restore
+* Different characters
+* Durability to items
+	Loss when used (fighting)
