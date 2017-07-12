@@ -225,6 +225,7 @@ namespace DungeonsOfDoom
                             {
                                 world[x, y].Monster = new Ogre();
                             }
+                            
 
                             monsterCount++; // tracks the amount of monsters created
                         }
